@@ -1,0 +1,421 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+    width: 100%;
+}
+
+.container {
+    max-width: 85rem;
+    margin: 0 auto;
+    /* transform: scale(0.9); */
+}
+
+.main .container .end-page {
+    page-break-before: always;
+}
+
+.preview-menu {
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #94a3b8;
+    border-bottom: 1px solid #94a3b8;
+}
+
+.preview-menu .message {
+    font-size: 1.1em;
+    text-align: justify;
+    font-style: italic;
+}
+
+.preview-menu .note {
+    font-size: 0.875em;
+    text-align: justify;
+    font-style: italic;
+    color: red;
+    text-decoration: underline;
+}
+
+.preview-menu .message span {
+    font-weight: bold;
+}
+
+.preview-menu .link-cover {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    padding-bottom: 20px;
+}
+
+.preview-menu .link-cover .export-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom left, black, #166534, black);
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.preview-menu .link-cover .export-link:hover {
+    transform: scale(1.1);
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+/* Page-1 */
+.page-1 .header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-1 .header img {
+    width: 90%;
+}
+
+.page-1 .title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.page-1 .title h1 {
+    margin: 0;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.page-1 .table-1 table {
+    width: 90%;
+    margin: 0px auto;
+    font-size: 0.875em;
+}
+
+.page-1 .table-1 tr .title {
+    width: 25%;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.page-1 .table-1 tr .colon {
+    width: 1%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.page-1 .table-1 tr .body {
+    width: 70%;
+    padding-left: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.page-1 .table-2 table {
+    width: 90%;
+    margin: 20px auto 20px auto;
+    font-size: 0.875em;
+}
+
+.page-1 .table-2 tr .image {
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.page-1 .table-2 tr .sign-mark {
+    width: 70%;
+    text-align: right;
+}
+
+.page-1 .table-2 tr .sign-mark .name {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.page-1 .footer {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.page-1 .footer h5 {
+    font-size: 1rem;
+    margin-bottom: 1px;
+}
+
+.page-1 .footer p {
+    font-size: 0.875em;
+    margin-top: 3px;
+}
+
+/* /Page-1 */
+
+/* Page-2 */
+/* .page-2 {
+} */
+
+.page-2 .header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-2 .header img {
+    width: 90%;
+}
+
+.page-2 .title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.page-2 .title h1 {
+    margin: 0;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.page-2 .table-3 table {
+    width: 90%;
+    margin: 0px auto;
+    font-size: 0.875em;
+}
+
+.page-2 .table-3 tr .title {
+    width: 25%;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.page-2 .table-3 tr .colon {
+    width: 1%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.page-2 .table-3 tr .body {
+    width: 70%;
+    padding-left: 1em;
+    text-align: left;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.page-2 .statement {
+    width: 90%;
+    margin: 50px auto;
+    /* font-size: 0.875em; */
+}
+
+.page-2 .statement .title {
+    font-weight: normal;
+    text-align: left;
+    font-size: 1em;
+}
+
+.page-2 .statement .list {
+    font-size: 0.875em;
+    line-height: 1.5;
+}
+
+.page-2 .statement .message {
+    font-size: 0.875em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.page-2 .table-4 table {
+    width: 90%;
+    margin: 0px auto;
+    font-size: 0.875em;
+    text-align: right;
+}
+
+.page-2 .table-4 .sign-mark .materai {
+    margin: 30px 0;
+    line-height: 0.5;
+    font-size: smaller;
+    margin-right: 100px;
+}
+
+.page-2 .table-4 .sign-mark .name {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.page-2 .footer {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.page-2 .footer h5 {
+    font-size: 1rem;
+    margin-bottom: 1px;
+}
+
+.page-2 .footer p {
+    font-size: 0.875em;
+    margin-top: 3px;
+}
+/* /Page-2 */
+
+/* Page-3 */
+.page-3 .header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-3 .header img {
+    width: 90%;
+}
+
+.page-3 .date {
+    width: 90%;
+    font-size: 0.875em;
+    margin: 20px auto;
+}
+
+.page-3 .table-5 table {
+    width: 90%;
+    margin: 0px auto 20px auto;
+    font-size: 0.875em;
+}
+
+.page-3 .table-5 tr .title {
+    width: 25%;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.page-3 .table-5 tr .colon {
+    width: 1%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.page-3 .table-5 tr .body {
+    width: 70%;
+    padding-left: 1em;
+    text-align: left;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.page-3 .table-6 table {
+    width: 90%;
+    margin: 0px auto 20px auto;
+    font-size: 0.875em;
+}
+
+.page-3 .permission {
+    width: 90%;
+    margin: 0px auto 20px auto;
+}
+
+.page-3 .permission .title {
+    font-weight: bold;
+    text-align: left;
+    font-size: 1em;
+}
+
+.page-3 .permission .sub-title {
+    text-align: justify;
+    font-size: 0.875em;
+}
+
+.page-3 .table-7 table {
+    width: 100%;
+    font-size: 0.875em;
+}
+
+.page-3 .table-7 tr .title {
+    width: 25%;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.page-3 .table-7 tr .colon {
+    width: 1%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.page-3 .table-7 tr .body {
+    width: 70%;
+    padding-left: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.page-3 .table-8 table {
+    width: 100%;
+    font-size: 0.875em;
+}
+
+.page-3 .table-8 tr .title {
+    width: 25%;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.page-3 .table-8 tr .colon {
+    width: 1%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.page-3 .table-8 tr .body {
+    width: 70%;
+    padding-left: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.page-3 .table-9 table {
+    width: 90%;
+    margin: 0px auto 20px auto;
+    font-size: 0.875em;
+}
+
+.page-3 .table-9 {
+    text-align: right;
+}
+
+.page-3 .table-9 table tr td p {
+    text-align: right;
+}
+
+.page-3 .table-9 tr td hr {
+    max-width: 120px;
+    margin-right: 0;
+    margin-top: 80px;
+    border-top: 1px solid black;
+}
+/* /Page-3 */

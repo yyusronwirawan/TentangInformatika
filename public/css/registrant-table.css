@@ -1,0 +1,98 @@
+body {
+    /* background-color: #d6d3d1; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    /* background-color: #f87171; */
+    width: 100%;
+}
+
+.container {
+    /* background-color: #fbbf24; */
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
+nav h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.export-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom left, black, #166534, black);
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.link-cover {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    margin: 10px 0;
+}
+
+.export-link:hover {
+    transform: scale(1.1);
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table tr th {
+    border: 1px solid #64748b;
+    text-align: center;
+    padding: 20px 0;
+}
+
+table tr .num {
+    width: 3%;
+}
+
+table tr .picture {
+    width: auto;
+}
+
+table tr .name {
+    width: 15%;
+}
+
+table tr .whatsapp {
+    width: 10%;
+}
+
+table tr .gender {
+    width: 10%;
+}
+
+table tr .father,
+.mother {
+    width: 12%;
+}
+
+table tr td {
+    text-align: center;
+    border: 1px solid #64748b;
+}
+
+table tr .goals-body {
+    text-align: left;
+    line-height: 1.5;
+}
